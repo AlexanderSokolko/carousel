@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Карусель</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="carousel">
+      <button class="carousel-button next" onclick="onNext();">&#11166;</button>
+      <button class="carousel-button prev" onclick="onPrev();">&#11164;</button>
+      <div class="carousel-image" data-active>
+        <img src="./image/first.jpg" alt="Img1" />
+      </div>
+      <div class="carousel-image">
+        <img src="./image/second.jpg" alt="Img2" />
+      </div>
+      <div class="carousel-image">
+        <img src="./image/third.jpg" alt="Img3" />
+      </div>
+    </div>
+    <script src="./src.js"></script>
+  </body>
+</html>
